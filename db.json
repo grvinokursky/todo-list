@@ -1,0 +1,52 @@
+{
+  "tasks": [
+    {
+      "id": "1",
+      "title": "Первое задание",
+      "description": "Какое-то описание",
+      "status": "NEW",
+      "createdAt": "2025-01-02T00:00:00.000Z",
+      "updatedAt": "2025-08-27T20:22:04.982Z"
+    },
+    {
+      "id": "2",
+      "title": "Второе",
+      "description": "",
+      "status": "NEW",
+      "createdAt": "2025-01-02T00:00:00.000Z",
+      "updatedAt": "2025-08-27T20:21:36.886Z"
+    },
+    {
+      "id": "3",
+      "title": "Третье",
+      "description": "",
+      "status": "IN_PROGRESS",
+      "createdAt": "2025-01-02T00:00:00.000Z",
+      "updatedAt": "2025-08-27T20:22:17.732Z"
+    },
+    {
+      "id": "4",
+      "title": "Четвертое",
+      "description": "",
+      "status": "IN_PROGRESS",
+      "createdAt": "2025-01-02T00:00:00.000Z",
+      "updatedAt": "2025-08-27T20:23:57.550Z"
+    },
+    {
+      "id": "5",
+      "title": "Пятое",
+      "description": "",
+      "status": "DONE",
+      "createdAt": "2025-01-02T00:00:00.000Z",
+      "updatedAt": "2025-08-27T20:23:51.260Z"
+    },
+    {
+      "id": "6",
+      "title": "Шестое",
+      "description": "",
+      "status": "DONE",
+      "createdAt": "2025-01-02T00:00:00.000Z",
+      "updatedAt": "2025-08-27T20:23:52.381Z"
+    }
+  ]
+}

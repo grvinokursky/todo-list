@@ -1,0 +1,31 @@
+.task-area {
+  display:flex;
+  flex-direction:column;
+  gap:16px;
+}
+
+.task-controls {
+  display:flex;
+  gap:12px;
+  flex-wrap:wrap;
+  align-items:center;
+  justify-content:space-between;
+}
+
+.task-list {
+  display:flex;
+  flex-direction:column;
+  gap:12px;
+}
+
+.filters {
+  display:flex;
+  gap:8px;
+  flex-wrap:wrap;
+}
+
+@media (max-width: 768px) {
+  .task-item { flex-direction:column; align-items:flex-start; }
+  .task-meta { width:100%; justify-content:space-between; margin-top:8px; }
+  .filters { order:1; width:100% }
+}

@@ -1,0 +1,77 @@
+html {
+  font-size: var(--font-size-base);
+  box-sizing: border-box;
+}
+*, *::before, *::after { box-sizing: inherit; }
+
+body {
+  margin: 0;
+  font-family: var(--font-system);
+  line-height: var(--line-height);
+  background: var(--bg);
+  color: var(--text);
+  font-size:16px;
+}
+
+h1 { font-size: 3.2em; line-height: 1.1; margin: 0; }
+h2, h3, h4, h5, h6 { margin: 0; }
+
+a {
+  color: var(--accent);
+  font-weight: 500;
+  text-decoration: inherit;
+}
+a:hover { color: var(--accent-hover); }
+
+:focus { outline: none; }
+:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; animation-duration: 0.001ms !important; }
+}
+
+button, input, textarea, select {
+  font-family: inherit;
+  font-size: 14px;
+  color: var(--text);
+  border-radius: var(--radius);
+  outline: none;
+}
+
+button {
+  padding: 8px 12px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: white;
+  cursor: pointer;
+}
+button.active{
+  background:var(--accent);
+  color:white;
+  border-color:var(--accent);
+}
+
+button.primary {
+  background: var(--accent);
+  color: #fff;
+  border-color: var(--accent);
+}
+button.danger{
+  border-color:var(--danger);
+  color:var(--danger);
+}
+
+input, textarea, select {
+  padding: 8px 10px;
+  border: 1px solid var(--border);
+  background: #fff;
+}
+
+.container {
+  max-width:1000px;
+  margin:20px auto;
+  padding:16px;
+}

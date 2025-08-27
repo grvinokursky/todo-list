@@ -1,0 +1,15 @@
+.edit-task-form {
+  display:flex;
+  flex-direction:column;
+  gap:8px;
+}
+
+.form-actions {
+  display:flex;
+  gap:8px;
+}
+
+.form-error {
+  color:var(--danger);
+  font-size:13px;
+}
